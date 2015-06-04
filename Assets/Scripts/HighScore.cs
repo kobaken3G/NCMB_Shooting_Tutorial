@@ -3,6 +3,7 @@ using System.Collections.Generic;
 
 namespace NCMB
 {
+
 	public class HighScore
 	{
 		public int score   { get; set; }
@@ -57,6 +58,10 @@ namespace NCMB
 				}
 			});
 		}
-		
+
+		public string print()
+		{
+			return name + ' ' + score;
+		}
 	}
 } 
